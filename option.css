@@ -30,7 +30,7 @@ header #right-search-form>input[type=text] {
 header #right-search-form>input[type=text]:hover,
 header #right-search-form>input[type=text]:focus {
     border-color: rgb(0, 153, 255);
-    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px #888, 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #999;
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(86, 207, 255), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px rgb(54, 164, 255);
 }
 
 header #right-search-form>#right-search-btn {
@@ -38,7 +38,7 @@ header #right-search-form>#right-search-btn {
     color: rgb(0, 96, 206);
     background: white;
     border: 1px dashed rgb(0, 96, 206);
-    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 96, 206), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #999;
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 96, 206), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px rgb(54, 164, 255);
     border-radius: 15px;
     transition: 0.2s;
 }
@@ -47,7 +47,7 @@ header #right-search-form>#right-search-btn:hover,
 header #right-search-form>#right-search-btn:focus {
     color: rgb(0, 153, 255);
     border: 1px dashed rgb(0, 153, 255);
-    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 153, 255), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #999;
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 153, 255), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px rgb(54, 164, 255);
 }
 
 header #header-bar>.row {

@@ -1,0 +1,257 @@
+*:focus {
+    outline: none;
+}
+
+html {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
+}
+
+body {
+    background: transparent;
+}
+
+a {
+    color: rgb(93, 190, 255);
+}
+
+a:hover,
+a:focus {
+    color: rgb(0, 96, 206);
+}
+
+header #right-search-form>input[type=text] {
+    margin-top: 3px;
+    margin-right: 18px;
+    border: 1px dashed rgb(0, 96, 206);
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 96, 206), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #eee;
+    transition: 0.2s;
+}
+
+header #right-search-form>input[type=text]:hover,
+header #right-search-form>input[type=text]:focus {
+    border-color: #888;
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px #888, 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #999;
+}
+
+header #right-search-form>#right-search-btn {
+    margin-top: 3px;
+    color: rgb(0, 96, 206);
+    background: white;
+    border: 1px dashed rgb(0, 96, 206);
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 96, 206), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #999;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+header #right-search-form>#right-search-btn:hover,
+header #right-search-form>#right-search-btn:focus {
+    color: #888;
+    border: 1px dashed #888;
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px #888, 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #999;
+}
+
+header #header-bar>.row {
+    margin-top: 5px;
+    border: 1px dashed rgb(0, 96, 206);
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 96, 206), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #eee;
+}
+
+header #header-bar a.dropdown-toggle {
+    color: #888;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #888;
+}
+
+header #header-bar #header-top-notice a {
+    color: #888;
+}
+
+header #header-bar #header-menu-right #userDropdown #notification-badge {
+    background: #888;
+}
+
+#main .menu-wrapper {
+    margin-bottom: 1.8em;
+    border: 1px dashed rgb(0, 96, 206);
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 96, 206), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #eee;
+}
+
+#main .menu-wrapper>.header {
+    background: rgb(93, 190, 255);
+    color: #888;
+    border-bottom: 1px dashed rgb(0, 96, 206);
+}
+
+#main .menu-wrapper>a,
+#main .menu-wrapper>.header>a {
+    color: #888;
+}
+
+#main .menu-wrapper>a>em {
+    color: #888;
+}
+
+#main .menu-wrapper .spacer {
+    background: rgb(0, 96, 206);
+    height: 2px;
+}
+
+#main .menu-wrapper>a>i.fa.fa-square {
+    color: #888;
+}
+
+#main #main-content {
+    padding-left: 21px;
+}
+
+#main #main-content>div.frame {
+    border: 1px dashed rgb(0, 96, 206);
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 96, 206), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #eee;
+}
+
+#board-info #board-info-bottom a {
+    color: #888;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "현재";
+    /* 접속자 수 앞 문구 */
+    cursor: text;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명이 타오릅니다.";
+    /* 접속자 수 뒤 문구 */
+    cursor: text;
+}
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    line-height: inherit;
+    background: white;
+    border-radius: 20px;
+    border: 1px dashed rgb(0, 96, 206);
+    box-shadow: 0 0 0 3px rgb(93, 190, 255), 0 0 0 5px rgb(0, 96, 206), 0 0 0 8px rgb(93, 190, 255), 0 0 2px 8px #eee;
+    color: #888;
+}
+
+#article-list #article-list-category {
+    background: white;
+    border-top: 2px dashed rgb(0, 96, 206);
+}
+
+#article-list #article-list-category>a {
+    background: white;
+    transition: 0.2s;
+}
+
+#article-list #article-list-category>a:hover,
+#article-list #article-list-category>a:focus {
+    background: #eee;
+}
+
+#article-list #article-list-category>a>.fa-home:before {
+    color: #888;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background: #888;
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: #888;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #888;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #888;
+}
+
+#article-content-wrapper>.header {
+    border-top: 1px dashed rgb(0, 96, 206);
+}
+
+#article-reply-area>.header h5,
+#article-reply-area>.header h5>a {
+    color: #888;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu a,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu a {
+    color: #888;
+}
+
+.fr-popup,
+.fr-toolbar.fr-top {
+    border-top: 3px dashed #888;
+}
+
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn {
+    color: #888;
+}
+
+#article-neighbor-list>div,
+#article-neighbor-list>div>a {
+    color: #888;
+}
+
+#article-list #boardSearchForm .form-control {
+    width: calc(100% - 2px);
+    margin-left: 1.5px;
+    border: 1px solid #888;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>span,
+.pagination>.active>span:focus {
+    background-color: #888;
+    border-color: #888;
+    transition: 0.2s;
+}
+
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>li>a:hover,
+.pagination>li>span:hover {
+    background-color: white;
+    border-color: #888;
+    color: #888;
+    transition: 0.2s;
+}
+
+.pagination>li>a,
+.pagination>li>a:focus,
+.pagination>li>span .pagination>li>span:focus {
+    color: #888;
+    background: white;
+    transition: 0.2s;
+}
+
+
+/* 버튼 */
+
+.btn {
+    color: white !important;
+    background-color: #888 !important;
+    border-color: #888 !important;
+    border-radius: 0;
+    transition: 0.2s;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #888 !important;
+    background-color: white !important;
+}
+
+.btn.square {
+    margin-right: -2px;
+}
